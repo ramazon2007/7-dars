@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid yellow;
+}
+button
+{
+    cursor: pointer;
+}
